@@ -1,6 +1,7 @@
 import React from "react";
 import "./about.css";
 import "../../index.css";
+import school from "../../assets/school.png";
 
 export const About = () => {
   return (
@@ -9,10 +10,10 @@ export const About = () => {
         <h2>
           <span>#</span>About us
         </h2>
-        <p>Lorem ipsum dolor sit amet consectetur</p>
+        <p>"Empowering Minds, Shaping Futures: XYZ School"</p>
       </section>
       <section id="about-head" className="section-p1">
-        <img src="" alt="" />
+        <img src={school} alt="" />
         <div>
           <h1>Who WE Are</h1>
           <p>

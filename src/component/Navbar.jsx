@@ -8,7 +8,7 @@ export const Navbar = () => {
 
   return (
     <nav>
-      <Link to="/" className="title">
+      <Link to="/" className="title" style={{ color: "black" }}>
         XYZ School
       </Link>
       <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
