@@ -1,38 +1,20 @@
-import { useState } from "react";
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import Navbar from "./component/navbar";
-import Home from "./component/Home";
-import About from "./component/About";
-import Academics from "./component/Academics";
-import Contact_Us from "./component/Contact_Us";
-import Gallery from "./component/Gallery";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { Navbar } from "./component/Navbar";
+import { About, Contact, Home, Gallery, Academics } from "./component/pages";
 
 function App() {
   return (
-    <>
-      <Router>
-        <Navbar>
-          <Switch>
-            <Route path="/" Component={Home} exact>
-              <Home />
-            </Route>
-            <Route path="/academics" Component={Academics} exact>
-              <Academics />
-            </Route>
-            <Route path="/gallery" Component={Gallery} exact>
-              <Gallery />
-            </Route>
-            <Route path="/about" Component={About} exact>
-              <About />
-            </Route>
-            <Route path="/contact" Component={Contact_Us} exact>
-              <Contact_Us />
-            </Route>
-          </Switch>
-        </Navbar>
-      </Router>
-    </>
+    <div className="App">
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/academics" element={<Academics />} />
+        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </div>
   );
 }
 
