@@ -1,0 +1,72 @@
+body {
+  background-color: aliceblue;
+}
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: #088178;
+}
+.section-p1 {
+  padding: 40px 80px;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  margin: 20px;
+}
+
+.logo {
+  height: 51px;
+  width: 140px;
+  margin-bottom: 10px;
+}
+
+h4 {
+  text-align: left;
+  color: #222;
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+p {
+  font-size: 14px;
+  margin: 0 0 8px 0;
+  width: 400px;
+}
+
+a {
+  font-size: 14px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #222;
+}
+.icon a {
+  font-size: 22px;
+}
+
+.follow {
+  margin-top: 20px;
+}
+
+.follow i {
+  color: #465b52;
+  padding-right: 4px;
+  cursor: pointer;
+}
+
+.follow i:hover,
+footer a:hover {
+  color: #088178;
+}
+.icon * {
+  margin: 2px;
+}
+
+.copyright {
+  width: 100%;
+  padding-left: 40%;
+  padding-right: 40%;
+}

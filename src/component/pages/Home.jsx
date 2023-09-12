@@ -11,7 +11,14 @@ import "./home.css";
 export const Home = () => {
   return (
     <>
-      <Carousel showArrows={true} showThumbs={false}>
+      <Carousel
+        showStatus={false}
+        showArrows={true}
+        showThumbs={false}
+        autoPlay={true}
+        interval={3000}
+        infiniteLoop={true}
+      >
         <div>
           <img src={slider1} alt="Slider Image 1" />
         </div>

@@ -10,7 +10,6 @@ export const About = () => {
         <h2>
           <span>#</span>About us
         </h2>
-        <p>"Empowering Minds, Shaping Futures: XYZ School"</p>
       </section>
       <section id="about-head" className="section-p1">
         <img src={school} alt="" />
@@ -37,64 +36,6 @@ export const About = () => {
           </marquee>
         </div>
       </section>
-      <section id="newsletter" className="section-p1 section-m1">
-        <div className="newstext">
-          <h4>Sign Up For Newsletters</h4>
-          <p>
-            Get E-mail updates about our latest shop and{" "}
-            <span>special offers</span>
-          </p>
-        </div>
-        <div className="form">
-          <input type="text" placeholder="Your email Address" />
-          <button className="normal">Sign Up</button>
-        </div>
-      </section>
-      <footer className="section-p1">
-        <div className="col">
-          <img className="logo" src="img web/Logo.png" alt="" />
-          <h4>Contact</h4>
-          <p>
-            <strong>Address: </strong> Street: 18/4, Arya Samaj Road, Karol Bagh
-            City: Bangalore State/province/area : Karnataka
-          </p>
-          <p>
-            <strong>Phone: </strong> +91 01165437913 +01 01127010431
-          </p>
-          <p>
-            <strong>Hours: </strong> 10:00 - 18:00 , Mon-Sat
-          </p>
-          <div className="follow">
-            <h4>Follow us</h4>
-            <div className="icon">
-              <i className="fab fa-facebook-f"></i>
-              <i className="fab fa-twitter"></i>
-              <i className="fab fa-instagram"></i>
-              <i className="fab fa-pinterest-p"></i>
-              <i className="fab fa-youtube"></i>
-            </div>
-          </div>
-        </div>
-        <div className="col">
-          <h4>About</h4>
-          <a href="#">About us</a>
-          <a href="#">Delivery information</a>
-          <a href="#">privacy policy</a>
-          <a href="#">T & C</a>
-          <a href="#">Contact</a>
-        </div>
-        <div className="col">
-          <h4>My Account</h4>
-          <a href="#">Sign in</a>
-          <a href="#">View Cart</a>
-          <a href="#">My Wishlist</a>
-          <a href="#">Track My Orders</a>
-          <a href="#">Help</a>
-        </div>
-        <div className="copyright">
-          <p>©2023 XYZ SCHOOL</p>
-        </div>
-      </footer>
     </div>
   );
 };

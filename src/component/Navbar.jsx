@@ -8,7 +8,7 @@ export const Navbar = () => {
 
   return (
     <nav>
-      <Link to="/" className="title" style={{ color: "black" }}>
+      <Link to="/" className="title" style={{ color: "088178" }}>
         XYZ School
       </Link>
       <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
@@ -17,6 +17,9 @@ export const Navbar = () => {
         <span></span>
       </div>
       <ul className={menuOpen ? "open" : ""}>
+        <li>
+          <NavLink to="/">Home</NavLink>
+        </li>
         <li>
           <NavLink to="/academics">Academics</NavLink>
         </li>

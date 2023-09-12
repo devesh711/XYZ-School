@@ -2,6 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import { Navbar } from "./component/Navbar";
 import { About, Contact, Home, Gallery, Academics } from "./component/pages";
+import { Footer } from "./component/footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }
