@@ -1,5 +1,5 @@
 import React from "react";
-import "./Contact.css";
+import "./contact.css";
 import { FaMap } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
 import { FaPhone } from "react-icons/fa";
