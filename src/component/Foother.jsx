@@ -4,7 +4,7 @@ import { FaTwitter } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
 
-export const Footer = () => {
+export const Foother = () => {
   return (
     <footer className="section-p1">
       <div className="footer-container">
