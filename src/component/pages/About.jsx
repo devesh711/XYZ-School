@@ -8,7 +8,7 @@ export const About = () => {
     <div>
       <section id="shop-banner" className="section-p1 about-header">
         <h2>
-          <span>#</span>About us
+          <span style={{ color: "#d70e0e" }}>#</span>About us
         </h2>
       </section>
       <section id="about-head" className="section-p1">
