@@ -22,12 +22,12 @@
 }
 
 .details span,
-#form-detalis form span {
+.form-detalis form span {
   font-size: 12px;
 }
 
 .details h2,
-#form-detalis form h2 {
+.form-details form h2 {
   color: #088178 !important;
   font-size: 26px;
   line-height: 35px;
@@ -69,7 +69,7 @@
   border-radius: 4px;
   cursor: pointer;
   transition: 0.3s ease;
-  border: none;
+  border: 1px solid black;
   outline: none;
 }
 .normal:hover,
@@ -96,7 +96,7 @@
   padding: 12px 15px;
   outline: none;
   margin-bottom: 20px;
-  border: 1px solid #e1e1e1;
+  border: 1px solid #a3a3a3;
 }
 
 .people div {
@@ -126,8 +126,9 @@
 }
 
 .form-details {
+  background-color: #ffffff;
   display: flex;
-  justify-content: space-between;
+  gap: 50px;
   margin: 30px;
   padding: 80px;
   border: 1px solid #e1e1e1;

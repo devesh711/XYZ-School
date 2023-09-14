@@ -1,0 +1,19 @@
+.section-p1 {
+  padding: 40px 80px;
+}
+
+.banner {
+  height: 30vh;
+  background-image: url(../../assets/b4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+}
+
+h2 {
+  text-align: center;
+}

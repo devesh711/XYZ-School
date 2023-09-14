@@ -7,9 +7,9 @@ export const About = () => {
   return (
     <div>
       <section id="shop-banner" className="section-p1 about-header">
-        <h2>
+        <h1 style={{ color: "#d0d8da" }}>
           <span style={{ color: "#d70e0e" }}>#</span>About us
-        </h2>
+        </h1>
       </section>
       <section id="about-head" className="section-p1">
         <img src={school} alt="" />

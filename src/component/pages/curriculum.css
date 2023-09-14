@@ -1,0 +1,55 @@
+/* curriculum.css (or use a CSS-in-JS solution) */
+
+.curriculum {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.section {
+  margin: 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.section:hover {
+  transform: translateY(-5px);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.text {
+  margin-top: 15px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: black !important;
+}
+
+p {
+  font-size: 1rem;
+  color: #555;
+}
+
+@media (min-width: 768px) {
+  .curriculum {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .section {
+    width: 30%;
+  }
+}

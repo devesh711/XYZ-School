@@ -6,7 +6,7 @@ import { FaInstagramSquare } from "react-icons/fa";
 
 export const Foother = () => {
   return (
-    <footer className="section-p1">
+    <footer style={{ backgroundColor: "#c6c7c7ad" }}>
       <div className="footer-container">
         <div className="col">
           <h4>Contact Us</h4>

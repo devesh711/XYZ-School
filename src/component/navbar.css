@@ -17,10 +17,12 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #acadadaf;
+  background-image: url(../assets/navbg.png);
+  background-color: #c6c7c7ad;
   color: white;
   position: sticky;
   top: 0;
+  z-index: +1;
 }
 
 nav .title {

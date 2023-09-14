@@ -1,5 +1,5 @@
 import React from "react";
 
 export const Gallery = () => {
-  return <h1>Contact</h1>;
+  return <h1>Gallery</h1>;
 };

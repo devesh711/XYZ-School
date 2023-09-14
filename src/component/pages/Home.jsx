@@ -18,6 +18,7 @@ export const Home = () => {
         autoPlay={true}
         interval={3000}
         infiniteLoop={true}
+        className="slider"
       >
         <div>
           <img src={slider1} alt="Slider Image 1" />
