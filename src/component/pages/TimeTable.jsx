@@ -91,7 +91,7 @@ export const TimeTable = () => {
         <tbody>
           {randomSchedules.map((schedule, index) => (
             <tr key={index}>
-              <td>{schedule.day}</td>
+              <td>{classSchedules[1][index].day}</td>
               <td>{schedule.classes[0]}</td>
               <td>{schedule.classes[1]}</td>
               <td>{schedule.classes[2]}</td>

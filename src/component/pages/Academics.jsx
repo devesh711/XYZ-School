@@ -28,7 +28,7 @@ export const Academics = () => {
           </li>
           <li>
             <a
-              href="/path-to-your-pdf-file-2.pdf"
+              href="https://docs.google.com/document/d/1oLIouSjU_XH22yEsBk1pgE4TFV0hl0QJ/edit?usp=drive_link&ouid=115763471743034584776&rtpof=true&sd=true"
               target="_blank"
               rel="noopener noreferrer"
               download
