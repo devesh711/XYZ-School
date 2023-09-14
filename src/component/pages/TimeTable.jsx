@@ -67,6 +67,13 @@ export const TimeTable = () => {
       <h2>Class Schedule</h2>
       <label htmlFor="standard">Select Standard:</label>
       <select
+        style={{
+          border: "none",
+          backgroundColor: "#088178",
+          color: "#fff",
+          padding: "8px",
+          borderRadius: "8px",
+        }}
         id="standard"
         name="standard"
         onChange={handleStandardChange}
