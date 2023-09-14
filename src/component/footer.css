@@ -66,6 +66,8 @@ footer a:hover {
 
 .copyright {
   width: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
   padding-left: 40%;
   padding-right: 40%;
 }

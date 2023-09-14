@@ -8,9 +8,9 @@ export const Contact = () => {
   return (
     <div className="contact-container">
       <section className="section-p1 contact-header">
-        <h2>
-          <span>#</span>let's_talk
-        </h2>
+        <h1 style={{ color: "white" }}>
+          <span style={{ color: "Red" }}>#</span>let's_talk
+        </h1>
       </section>
       <section id="contact-details" className="section-p1">
         <div className="details">

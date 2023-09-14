@@ -26,9 +26,13 @@
   font-size: 12px;
 }
 
-.details h2,
 .form-details form h2 {
   color: #088178 !important;
+  font-size: 26px;
+  line-height: 35px;
+  padding: 20px 0;
+}
+.details h2 {
   font-size: 26px;
   line-height: 35px;
   padding: 20px 0;
@@ -45,14 +49,10 @@
   padding: 10px 0;
 }
 
-.details li i {
-  font-size: 14px;
-  padding-right: 22px;
-}
-
 .details li p {
   font-size: 14px;
   margin: 0;
+  padding-left: 24px;
 }
 
 .map {
